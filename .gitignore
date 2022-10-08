@@ -100,3 +100,8 @@ ENV/
 
 # Visual Studio Code
 .vscode/
+
+# misc
+log/
+.tmp/
+.package.lock

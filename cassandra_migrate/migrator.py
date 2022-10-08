@@ -1,9 +1,5 @@
 # encoding: utf-8
 
-from __future__ import (absolute_import, division,
-                        print_function, unicode_literals)
-from builtins import input, str
-
 import re
 import logging
 import uuid
@@ -12,7 +8,7 @@ import sys
 import os
 import importlib
 from functools import wraps
-from future.moves.itertools import zip_longest
+from itertools import zip_longest
 
 import arrow
 from tabulate import tabulate

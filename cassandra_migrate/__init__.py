@@ -1,9 +1,6 @@
 # encoding: utf-8
 # flake8: noqa: E402,F401
 
-from __future__ import print_function, unicode_literals
-
-
 class MigrationError(RuntimeError):
     """Base class for migration errors"""
     pass
